@@ -34,8 +34,29 @@ body {
     margin-left: 6.25%;
 }
 
+@media (max-aspect-ratio: 1) {
+
+    .project > * {
+        display: block;
+    }
+
+    .project > img {
+        max-width: 75%;
+        margin-left: 12.5%;
+    }
+
+}
+
 .project > h3 {
     margin-left: 2%;
+}
+
+.project > img {
+    max-width: 75%;
+    margin-left: 12.5%;
+    height: auto;
+    border-width: 4px;
+    border-color: black;
 }
 
 .project > p:not(.project-links) {
