@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    padding-top: 18vh;
+}
+
+.content-img {
+    max-width: 80%;
+}
+
+@media (min-width: 1000px) {
+
+    .project > * {
+        display: inline-block;
+    }
+
+    .project > h3, .project-links {
+        display: block;
+    }
+
+    .project > img {
+        max-width: 40%;
+        margin-left: 5%;
+    }
+
+    .project > p {
+        vertical-align: top;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .project > img {
+        max-width: 75%;
+        margin-left: 12.5%;
+        height: auto;
+        border-width: 4px;
+        border-color: black;
+    }
+
+}
+
+.project > p:not(.project-links) {
+    margin-left: 4%;
+}
+
+.project-links {
+    width: 98%;
+    margin-left: 2%;
+    background-color: #d2d2cf;
+}
+
+.project-links > a {
+    color: #717171;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.project {
+    width: 87.5%;
+    background-color: #e2e2df;
+    text-align: left;
+    margin-left: 6.25%;
+}
+
+.project > h3 {
+    margin-left: 2%;
+}
